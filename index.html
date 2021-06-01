@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>day-24</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="row">
+        <div class="col-3 header-height"></div>
+        <div class="col-9 header-height"></div>
+    </div>
+    <div class="row">
+        <div id="menu" class="col-12 menu-height">
+            <ul id="mainUl">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Contact</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 content-height"></div>
+        <div class="col-9 content-height">
+            <form action="" method="post" id="form">
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td>
+                            <input type="text" id="firstName">
+                            <span id="firstNameError" class="span-color"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td>
+                            <input type="text" id="lastName">
+                            <span id="lastNameError" class="span-color"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email Address</td>
+                        <td>
+                            <input type="email" id="emailAddress">
+                            <span id="emailAddressError" class="span-color"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type="password" id="password">
+
+                            <span id="passwordError" class="span-color"></span>
+                        </td>
+                    </tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="showHide"> Show Password
+                    </td>
+                    <tr>
+                        <td>Confirm Password</td>
+                        <td>
+                            <input type="password" id="confirmPassword">
+                            <span id="confirmPasswordError" class="span-color"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender Info</td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male
+                            <input type="radio" name="gender" value="female"> Female
+                            <span id="genderError" class="span-color"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>District Name</td>
+                        <td>
+                            <select>
+                                <option value=" ">---Select District Name---</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Savar">Savar</option>
+                                <option value="Dohar">Dohar</option>
+                                <option value="Gazipur">Gazipur</option>
+                            </select>
+                            <span id="districtError" class="span-color"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" name="btn" id="btn" value="Submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 footer-height"></div>
+    </div>
+</div>
+
+
+
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

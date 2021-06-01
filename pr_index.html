@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>pr_index</title>
+    </head>
+    <body>
+
+          <form>
+              <table>
+                  <tr>
+                      <td>First Name</td>
+                      <td>
+                          <input type="text" id="firstName">
+                          <span id="firstNameError"></span>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Last Name</td>
+                      <td>
+                          <input type="text" id="lastName">
+                          <span id="lastNameError"></span>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Email Address</td>
+                      <td>
+                          <input type="email" id="emailAddress">
+                          <span id="emailAddressError"></span>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Password</td>
+                      <td>
+                      <input type="password" id="password">
+                      <input type="checkbox" id="showHide"> Show Password
+                      <span id="passwordError"></span>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Confirm Password</td>
+                      <td>
+                          <input type="password" id="confirmPassword">
+                          <span id="confirmPasswordError"></span>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Gender Info</td>
+                      <td>
+                          <input type="radio" name="gender" value="male"> Male
+                          <input type="radio" name="gender" value="female"> Female
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>District Name</td>
+                      <td>
+                          <select>
+                          <option>---Select District---</option>
+                          <option value="Dhaka">Dhaka</option>
+                          <option value="Savar">Savar</option>
+                          <option value="Dohar">Dohar</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td>
+                          <input type="submit" id="btn" value="Submit">
+                      </td>
+                  </tr>
+              </table>
+          </form>
+
+
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/pr_script.js"></script>
+    </body>
+</html>
